@@ -53,8 +53,8 @@ var Ball = function(){
     var C = color( dist / maxDist * 1000000 %360 , 100 , 100 );
     
     if( this.dis <= 100 ){
-      stroke( C );
-      // stroke( 0 , 0 , 100 );
+     // stroke( C );
+       stroke( 0 , 0 , 100 );
       line( B[i].pos.x , B[i].pos.y , B[v].pos.x , B[v].pos.y );
     }
   };
